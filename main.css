@@ -18,5 +18,9 @@ body{
     background-size: 100% ;
 }
 .card-text{
+    text-align: center;
     color: aqua;
+}
+.fr{
+    color: gold;
 }
