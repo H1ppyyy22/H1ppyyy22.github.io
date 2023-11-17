@@ -1,5 +1,6 @@
 .w{
     color: red;
+    text-align: center;
 }
 .h2{
     color: green;
@@ -15,4 +16,16 @@ body{
 }
 .fr{
     text-align: left;
+}
+.ou{
+    margin: 11px auto 222px 550px;
+    display: block;
+}
+.uo{
+    margin: 11px auto 222px 250px;
+    display: block;
+}
+.o{
+    text-align: center;
+    color: firebrick;
 }
