@@ -1,6 +1,9 @@
 .w{
+    position: relative;
+    left: 270px;
+
     color: red;
-    text-align: center;
+    /* margin: 1px 230px; */
 }
 .h2{
     color: green;
@@ -17,15 +20,133 @@ body{
 .fr{
     text-align: left;
 }
-.ou{
-    margin: 11px auto 222px 550px;
-    display: block;
-}
-.uo{
-    margin: 11px auto 222px 250px;
-    display: block;
-}
 .o{
+    /* margin: 0px 300px; */
+    /* padding: 150px; */
+    position: relative;
+    left: 230px;
+    top: 150px;
     text-align: center;
     color: firebrick;
+}
+.krasnodar{
+    position: relative;
+    left: 450px;
+    bottom: 240px;
+    transform: scale(50%);
+    /* margin: 1px -550px; */
+    display: block;
+}
+.ural{
+    transform: scale(50%);
+    
+    display: block;
+}
+.games{
+    position: absolute;
+    left:35%;
+
+}
+@media(max-width: 320px){
+    .games{
+        position: absolute;
+        left: -20%;
+    }
+    .ural{
+        transform: scale(25%);
+    }
+    .krasnodar{
+        transform: scale(25%);
+        left: 260px;
+        bottom: 245px;
+    }
+    .o{
+        position: relative;
+        left: 130px;
+    }
+}
+@media(min-width: 375px){   /*телефон*/
+    .games{
+        position: absolute;
+        left: -20%;
+    }
+    .ural{
+        transform: scale(30%);
+    }
+    .krasnodar{
+        transform: scale(30%);
+        left: 285px;
+        bottom: 247px;
+    }
+    .o{
+        position: relative;
+        left: 150px;
+    }
+}
+@media(min-width: 425px){  
+    .games{
+        position: absolute;
+        left: -20%;
+    }
+}
+@media(min-width: 767px){     /*планшет*/
+    .games{
+        position: absolute;
+        left: 5%;
+    }
+    .ural{
+        transform: scale(40%);
+    }
+    .krasnodar{
+        transform: scale(40%);
+        left: 290px;
+    }
+}    
+@media(min-width: 1023px){   /*ноутбук*/
+    .games{
+        position: absolute;
+        left: 15%;
+    }
+    .ural{
+        transform: scale(50%);
+    }
+    .krasnodar{
+        transform: scale(50%);
+        left: 335px;
+    }
+    .o{
+        left: 175px;
+    }
+}
+@media(min-width: 1439px){
+    .games{
+        position: absolute;
+        left: 30%;
+    }
+    .ural{
+       transform: scale(65%); 
+    }
+    .krasnodar{
+        transform: scale(65%);
+        left: 375px;
+    }
+    .o{
+        left: 200px;
+    }
+}
+@media(min-width: 2559px){   /*4K*/
+    .games{
+        position: absolute;
+        left: 35%;
+    }
+    .ural{
+        transform: scale(115%);
+    }
+    .krasnodar{
+        transform: scale(115%);
+        left: 470px;
+    }
+    .o{
+        left: 250px;
+    }
 }
