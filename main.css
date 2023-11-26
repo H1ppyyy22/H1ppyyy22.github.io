@@ -15,7 +15,7 @@
     color: aquamarine;
 }
 body{
-    background: url(https://catherineasquithgallery.com/uploads/posts/2023-02/1676550007_catherineasquithgallery-com-p-skachat-zelenii-virtualnii-fon-242.jpg);
+    background: url(https://catherineasquithgallery.com/uploads/posts/2023-02/1676537256_catherineasquithgallery-com-p-fon-obichnii-zelenii-29.jpg);
 }
 .fr{
     text-align: left;
@@ -47,7 +47,7 @@ body{
     left:35%;
 
 }
-@media(max-width: 320px){
+@media(max-width: 320px){   /*телефон*/
     .games{
         position: absolute;
         left: -20%;
@@ -65,7 +65,7 @@ body{
         left: 130px;
     }
 }
-@media(min-width: 375px){   /*телефон*/
+@media(min-width: 375px){   
     .games{
         position: absolute;
         left: -20%;
