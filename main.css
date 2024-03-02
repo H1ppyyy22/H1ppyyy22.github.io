@@ -267,6 +267,18 @@ body{
     .plm{
         font-size: 153 0%;
     }
+    .h2{
+        top: 40px;
+    }
+    .h3{
+        top: 25px;
+    }
+    .card-text{
+        top: 10px;
+    }
+    .btn{
+        top: 0px;
+    }
 }
 @media(min-width: 2559px){   /*4K*/
     .games{
