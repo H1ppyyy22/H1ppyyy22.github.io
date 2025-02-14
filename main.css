@@ -41,8 +41,8 @@ body{
 }
 .gosti{
     position: relative;
-    left: 450px;
-    bottom: 240px;
+    left: 550px;
+    bottom: 285px;
     transform: scale(50%);
     /* margin: 1px -550px; */
     display: block;
