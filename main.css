@@ -25,7 +25,7 @@
     position: relative;
 }
 body{
-    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614446616_68-p-temno-zelenii-fon-101.jpg)/*(https://catherineasquithgallery.com/uploads/posts/2023-02/1676537256_catherineasquithgallery-com-p-fon-obichnii-zelenii-29.jpg)*/;
+    background: url(https://ybis.ru/wp-content/uploads/2023/09/laimovyi-tsvet-8.webp);
 }
 .fr{
     text-align: left;
@@ -39,7 +39,7 @@ body{
     text-align: center;
     color: firebrick;
 }
-.krasnodar{
+.gosti{
     position: relative;
     left: 450px;
     bottom: 240px;
@@ -47,7 +47,7 @@ body{
     /* margin: 1px -550px; */
     display: block;
 }
-.ural{
+.homer{
     transform: scale(50%);
     
     display: block;
@@ -61,7 +61,7 @@ body{
     transform: scale(50%);
     position: relative;
 }
-.v{
+.h11{
     color: red;
 }
 @media(max-width: 320px){   /*телефон*/
@@ -69,10 +69,10 @@ body{
         position: absolute;
         left: -20%;
     }
-    .ural{
+    .gosti{
         transform: scale(25%);
     }
-    .krasnodar{
+    .homer{
         transform: scale(25%);
         left: 230px;
         bottom: 245px;
@@ -114,10 +114,10 @@ body{
         position: absolute;
         left: -20%;
     }
-    .ural{
+    .gosti{
         transform: scale(30%);
     }
-    .krasnodar{
+    .homer{
         transform: scale(30%);
         left: 260px;
         bottom: 247px;
@@ -167,7 +167,7 @@ body{
     .zxc{
         font-size: 150%;
     }
-    .krasnodar{
+    .homer{
         left: 295px;
     }
     .w{
@@ -181,10 +181,10 @@ body{
         position: absolute;
         left: 5%;
     }
-    .ural{
+    .gosti{
         transform: scale(40%);
     }
-    .krasnodar{
+    .homer{
         transform: scale(40%);
         left: 305px;
     }
@@ -209,10 +209,10 @@ body{
         position: absolute;
         left: 15%;
     }
-    .ural{
+    .gosti{
         transform: scale(50%);
     }
-    .krasnodar{
+    .homer{
         transform: scale(50%);
         left: 410px;
     }
@@ -234,10 +234,10 @@ body{
         position: absolute;
         left: 30%;
     }
-    .ural{
+    .gosti{
        transform: scale(65%); 
     }
-    .krasnodar{
+    .homer{
         transform: scale(65%);
         left: 550px;
     }
@@ -285,10 +285,10 @@ body{
         position: absolute;
         left: 35%;
     }
-    .ural{
+    .gosti{
         transform: scale(115%);
     }
-    .krasnodar{
+    .homer{
         transform: scale(115%);
         left: 860px;
     }
