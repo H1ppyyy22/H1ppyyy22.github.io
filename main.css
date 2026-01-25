@@ -14,11 +14,11 @@
     color: green;
 }
 .h3{
-    color: greenyellow;
+    color: seagreen;
     position: relative;
 }
 .card-text{
-    color: aquamarine;
+    color: forestgreen;
     position: relative;
 }
 .btn{
@@ -49,7 +49,7 @@ body{
 }
 .homer{
     transform: scale(50%);
-    
+    top: 500px;
     display: block;
 }
 .games{
@@ -211,13 +211,14 @@ body{
     }
     .gosti{
         position: relative;
-        left: 550px;
-        bottom: 285px;
+        left: 515px;
+        bottom: 240px;
         transform: scale(50%);
     }
-    .homer{
+    .homer{  
+        left: 500px;
+        bottom: 275px;
         transform: scale(50%);
-        left: 410px;
     }
     .o{
         left: 200px;
